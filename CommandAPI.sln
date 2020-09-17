@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95960766-EBED-47FE-898E-DC2475B94A68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandAPI", "src\CommandAPI\CommandAPI.csproj", "{9FD196FD-A53F-4643-B0E9-3E62D29CCE38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandAPI", "src\CommandAPI\CommandAPI.csproj", "{9FD196FD-A53F-4643-B0E9-3E62D29CCE38}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{31E2E61B-E85E-4033-A049-10467E3787ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandAPI.Tests", "test\CommandAPI.Tests\CommandAPI.Tests.csproj", "{E82E0DA0-6689-4A45-B713-59E6BE4F6454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandAPI.Tests", "test\CommandAPI.Tests\CommandAPI.Tests.csproj", "{E82E0DA0-6689-4A45-B713-59E6BE4F6454}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{516B0EE7-278B-471D-A9D7-4EFA928CC3DE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9FD196FD-A53F-4643-B0E9-3E62D29CCE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +51,14 @@ Global
 		{E82E0DA0-6689-4A45-B713-59E6BE4F6454}.Release|x86.ActiveCfg = Release|Any CPU
 		{E82E0DA0-6689-4A45-B713-59E6BE4F6454}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9FD196FD-A53F-4643-B0E9-3E62D29CCE38} = {95960766-EBED-47FE-898E-DC2475B94A68}
 		{E82E0DA0-6689-4A45-B713-59E6BE4F6454} = {31E2E61B-E85E-4033-A049-10467E3787ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {736F3335-0329-4601-8F06-38BDC1B96840}
 	EndGlobalSection
 EndGlobal
